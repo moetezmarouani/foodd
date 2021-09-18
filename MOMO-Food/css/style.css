@@ -1,0 +1,434 @@
+
+.collapse {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-fluid img {
+    width: 150px !important;
+    height: 100px !important;
+}
+.container-fluid  {
+    background-color: rgb(233, 174, 45);
+}
+.navbar {
+    position: fixed;
+    z-index: 1;
+    
+}
+.welcome {
+    text-align: center;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(75, 12, 134);
+}
+@media  screen and (max-width:380px) {
+    .welcome {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(75, 12, 134);
+    }
+}
+.intro {
+    display: flex;
+}
+.intro p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.intro img {
+    height: 30vh !important;
+}
+@media screen and (max-width:696px) and (min-width:280px) {
+    .intro {
+    flex-wrap: wrap;
+    }
+    .intro img {
+        width: 100%;
+    }
+    .intro p {
+        font-size: 10px;
+    }
+}
+
+
+
+/****services****/
+.best-sells {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.bestsell {
+    text-align: center;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(233, 35, 21);
+    background-color: rgb(233, 171, 38);
+}
+.best-sells .best {
+    width: 20%;
+}
+.best img {
+    width: 100%;
+    height: 200px;
+    
+}
+.best h3 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+@media screen and (max-width:800px) and (min-width:500px) {
+    .best-sells {
+        flex-wrap: wrap;
+    }
+    .best-sells .best {
+        width: 40% !important;
+    }
+}
+@media screen and (max-width:499px) {
+    .best-sells {
+        flex-wrap: wrap;
+    }
+    .best-sells .best {
+        width:100% !important;
+    }
+    .bestsell {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(233, 35, 21);
+        background-color: rgb(233, 171, 38);
+    }
+}
+.produits {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(233, 35, 21);
+    background-color: rgb(233, 171, 38);
+}
+.pizza {
+    display: flex;
+}
+.pizza-menu{
+    width: 50%;
+    height:100%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    color: red;
+    background-color: rgb(233, 171, 38);
+}
+.pizza-img {
+    width: 50%;
+}
+.pizza-img img {
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width:700px) {
+    .pizza {
+        flex-wrap: wrap;
+    }
+    .pizza-img {
+        width: 100% !important;
+    }
+    .pizza-menu {
+        width: 100% !important;
+        font-size: 20px;
+    }
+}
+.sandw {
+    display: flex;
+}
+.sandw-menu{
+    width: 50%;
+    height:100%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    color: red;
+    background-color: rgb(233, 171, 38);
+}
+.sandw-img {
+    width: 50%;
+}
+.sandw-img img {
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width:700px) {
+    .sandw {
+        flex-wrap: wrap;
+    }
+    .sandw-img {
+        width: 100% !important;
+    }
+    .sandw-menu {
+        width: 100% !important;
+        font-size: 20px;
+    }
+}
+.soda {
+    display: flex;
+}
+.soda-menu{
+    width: 50%;
+    height:100%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    color: red;
+    background-color: rgb(233, 171, 38);
+}
+.soda-img {
+    width: 50%;
+}
+.soda-img img {
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width:700px) {
+    .soda {
+        flex-wrap: wrap;
+    }
+    .soda-img {
+        width: 100% !important;
+    }
+    .soda-menu {
+        width: 100% !important;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+/****contact-us****/*
+.cotact-us {
+    display: flex;
+}
+.client {
+    display: flex;
+}
+.inp {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content:center ;
+    height: 100%;
+    padding: 10px;
+}
+.resto {
+    width: 50%;
+}
+.resto img {
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+.cntct {
+    width: 20%;
+    background-color:rgb(233, 171, 38);
+    color:red;
+}
+.form {
+    width: 50%;
+    background-color: rgb(78, 16, 78);
+}
+.footer2 {
+    margin-top: 10px;
+}
+@media screen and (max-width:700px) {
+    .client {
+        flex-wrap: wrap;
+    }
+    .form {
+        width: 100%;
+    }
+    .resto {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+/****a-porpos****/
+.propos {
+    display: flex;
+}
+.staff img {
+    width: 100%;
+    height: 100%;
+}
+.staff {
+    width: 50%;
+}
+.para {
+    padding-left: 10px;
+    width: 50%;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:696px) and (min-width:280px) {
+    .propos {
+        flex-wrap: wrap;
+    }
+    .para {
+        width: 100%;
+        font-size: 10px;
+    }
+    .staff {
+        width: 100%;
+    }
+}
+
+/****footer css****/
+.footer {
+    position: relative;
+    margin-top: 45px;
+    padding-top: 90px;
+    background:rgb(233, 171, 38);
+}
+
+.footer .footer-contact,
+.footer .footer-link,
+.footer .footer-goal {
+    position: relative;
+    margin-bottom: 45px;
+    color:rgb(75, 12, 134);
+}
+
+.footer .footer-contact h2,
+.footer .footer-link h2,
+.footer .footer-goal h2{
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(78, 16, 78)
+    ;
+}
+
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(78, 16, 78);
+    transition: .3s;
+}
+
+.footer .footer-link a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .footer-link a:hover {
+    color: rgb(78, 16, 78);
+    letter-spacing: 1px;
+}
+
+.footer .footer-contact p i {
+    width: 25px;
+}
+
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer .footer-social a {
+    display: inline-block;
+}
+
+.footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 18px;
+    color: rgb(78, 16, 78);
+}
+
+.footer .footer-social a:last-child i {
+    margin: 0;
+}
+
+.footer .footer-social a:hover i {
+    color: rgb(78, 16, 78);
+}
+
+.footer .footer-goal p {
+    position: relative;
+    width: 100%;
+}
+
+.footer .footer-goal input {
+    height: 60px;
+    border: 2px solid #1d2434;
+    border-radius: 0;
+}
+
+.footer .footer-goal .btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 44px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2434;
+    background: none;
+    border-radius: 0;
+    border: 2px solid #1d2434;
+    transition: .3s;
+}
+
+.footer .footer-goal .btn:hover {
+    color: rgb(78, 16, 78);
+    background: #1d2434;
+}
+
+.footer .copyright {
+    padding: 0 30px;
+}
+
+.footer .copyright .row {
+    background: rgb(78, 16, 78);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer .copyright p {
+    margin: 0;
+    color: #454545;
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+.footer .copyright p a {
+    color: #1d2434;
+    font-weight: 700;
+}
+
+.footer .copyright p a:hover {
+    color: rgb(78, 16, 78);
+}
+
+
